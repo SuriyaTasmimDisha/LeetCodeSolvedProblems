@@ -4,9 +4,7 @@ def removeElement():
     i = 0
     n = len(nums)
     while i < n:
-        print(n)
         if nums[i] == val:
-            print(nums)
             nums[i] = nums[n-1]
             n -= 1
         else:
