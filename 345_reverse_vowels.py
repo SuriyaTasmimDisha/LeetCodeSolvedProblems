@@ -26,5 +26,4 @@ class Solution:
         return "".join(s)
 
 sol = Solution()
-
 print(sol.reverseVowels("hello"))
